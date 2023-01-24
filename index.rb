@@ -14,7 +14,7 @@ class Mathgame
       @first_guess -= 1
       if @lives > 0   
         if @first_guess === 1
-          puts "----- BEGIN GAME -----"
+          puts " ----   BEGIN GAME   ---- "
           puts "----- PLAYER 1's TURN -----"
         else
           puts "----- PLAYER 1's TURN -----"
