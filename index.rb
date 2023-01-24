@@ -65,7 +65,7 @@ class Mathgame
         # puts "You guessed #{player2_guess}"
 
         if player2_correct_guess === player2_guess
-          puts "Correct! #{correct_guess_p2} is the answer we wanted."
+          puts "Correct! #{player2_correct_guess} is the answer we wanted."
           @playerToggle -= 1
           make_guess
         else
